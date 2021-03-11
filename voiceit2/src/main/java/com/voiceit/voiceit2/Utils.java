@@ -208,7 +208,7 @@ class Utils {
 
         // Build camera source and attach detector
         return new CameraSource.Builder(activity, detector)
-                .setFacing(CameraSource.CAMERA_FACING_FRONT)
+                .setFacing(CameraSource.CAMERA_FACING_BACK)
                 .setRequestedFps(30.0f)
                 .build();
     }
